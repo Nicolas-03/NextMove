@@ -1,0 +1,8 @@
+# GetPathList.srv
+
+# === Request ===
+# (vide)
+
+---
+# === Response ===
+string[] filenames

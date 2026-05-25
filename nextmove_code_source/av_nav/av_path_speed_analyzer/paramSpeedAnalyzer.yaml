@@ -1,0 +1,19 @@
+speed_analyzer:
+  ros__parameters:
+    maxSpeed: 30 #maximum Speed (km/h) allowed. Default : 30
+    minSpeed: 7  #minimun Speed (km/h) allowed. Default : 7
+    maxGForce: 10.0 #max G Force(m/s^2) allwoed. Default : 10.0
+    methodSelect: 1 #ID of the method choose for calculating speed. Default : 1
+
+# For maxGFroce parameters, always enter the value int oa float form. eg : you want 2m/s^2, enter 2.0
+
+# List of methods availables for speed calculation (with there associated id):
+#   ID - Method name
+#   1 - Speed Profile
+#   2 - Path Angle Calculation
+#   3 - Steering Angle
+#   4 - Dynamic Pure pursuit (only the speed part)
+#
+
+#To launch the node with this param file, do the folowing command in the root of your workspace
+# $ros2 run av_path_speed_analyzer speed_analyzer --ros-args --params-file src/av_nav/av_path_speed_analyzer/paramSpeedAnalyzer.yaml

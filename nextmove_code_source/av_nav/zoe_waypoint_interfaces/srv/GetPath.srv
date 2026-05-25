@@ -1,0 +1,10 @@
+# GetPath.srv
+
+# === Request ===
+string filename
+
+---
+# === Response ===
+bool success
+nav_msgs/Path path
+sensor_msgs/NavSatFix gps_start

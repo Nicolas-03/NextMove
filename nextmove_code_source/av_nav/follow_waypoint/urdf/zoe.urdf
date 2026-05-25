@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<robot name="zoe">
+
+  <!-- Base link -->
+  
+<link name="base_link">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+              iyy="0.001" iyz="0.0" izz="0.001"/>
+  </inertial>
+</link>
+
+<joint name="base_link_connection" type="fixed">
+  <parent link="base_link"/>
+  <child link="chassis"/>
+  <origin xyz="1.45 0 0" rpy="0 0 1.57"/>
+</joint>
+
+<link name="chassis">
+  <visual>
+    <origin xyz="0 1.25 0" rpy="0 0 3.1415"/>
+    <geometry>
+      <mesh filename="package://zoe_follow_waypoint/meshes/zoe.dae"/>
+    </geometry>
+  </visual>
+</link>
+
+  <!-- Child links -->
+  <link name="zoe_trunk_frame"/>
+  <link name="antenne_frame"/>
+  <link name="hesai_frame"/>
+  <link name="novatel_frame"/>
+  <link name="sick_frame"/>
+  <link name="velodyne_frame"/>
+  <link name="os3d_frame"/>
+  <link name="front_axle"/>
+
+  <!-- Joints -->
+  <joint name="zoe_trunk_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="zoe_trunk_frame"/>
+    <origin xyz="0.0 -0.657 0.724" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="front_axle_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front_axle"/>
+    <origin xyz="2.588 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="antenne_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="antenne_frame"/>
+    <origin xyz="0.78 0.16 1.52" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="hesai_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="hesai_frame"/>
+    <origin xyz="-0.77 0.0 1.83" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="novatel_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="novatel_frame"/>
+    <origin xyz="0.79 -0.18 1.52" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="sick_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="sick_frame"/>
+    <origin xyz="0.52 0.0 0.41" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="velodyne_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="velodyne_frame"/>
+    <origin xyz="0.5 0.78 1.4" rpy="1.5708 0 1.5708"/>
+  </joint>
+
+  <joint name="os3d_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="os3d_frame"/>
+    <origin xyz="0.0 -0.27 1.02" rpy="0 0 0"/>
+  </joint>
+
+</robot>

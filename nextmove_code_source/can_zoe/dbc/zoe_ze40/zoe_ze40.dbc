@@ -1,0 +1,844 @@
+VERSION ""
+
+
+NS_ :
+
+BS_:
+
+BU_: Vector__XXX
+
+BO_ 80 id_050_activation_robotisation: 2 Vector__XXX
+SG_ Mode_desire : 1|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Activation_DAE_robotise_CAN : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Activation_Accel_robotise_CAN : 3|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Activation_Frein_robotise_CAN : 4|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Activation_PRND_robotise_CAN : 5|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Checksum_id_050 : 11|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_050 : 15|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 96 id_060_Condition_activation_G_A: 8 Vector__XXX
+SG_ CondActiv_GenVehRobotisation_A : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteAVG_A : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteAVD_A : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteARG_A : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteARD_A : 4|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PRND_A : 5|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_FreinMain_A : 6|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_ArretUrgence_A : 7|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_Porte_hayon_A : 8|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_SecuConducte_A : 9|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_SecuPassager_A : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_CAN_intersys_A : 11|1@0+ (1,0) [0|1] "-" Vector__XXX
+
+
+BO_ 97 id_061_Condition_activation_G_B: 8 Vector__XXX
+SG_ CondActiv_GenVehRobotisation_B : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteAVG_B : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteAVD_B : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteARG_B : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_PorteARD_B : 4|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_PRND_B : 5|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_FreinMain_B : 6|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_ArretUrgence_B : 7|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_Porte_hayon_B : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ CauseNonActiv_Gen_SecuConducte_B : 9|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_SecuPassager_B : 10|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseNonActiv_Gen_CAN_intersys_B : 11|1@0+ (1,0) [0|1] "-" Vector__XXX
+
+
+BO_ 112 id_070_Pupitre_A: 8 Vector__XXX
+SG_ Pupitre_LED_Accel : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+SG_ Pupitre_LED_Frein : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+SG_ Pupitre_ArretUrgence_A : 18|3@0+ (1,0) [0|7] "" Vector__XXX
+SG_ Pupitre_Buzzer_dmd_Accel_Frein : 26|3@0+ (1,0) [0|7] "-" Vector__XXX
+
+
+BO_ 113 id_071_Pupitre_B: 8 Vector__XXX
+SG_ Pupitre_Rotacteur_mode : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+SG_ Pupitre_interr_DAE : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Pupitre_interr_Accel : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ Pupitre_interr_Frein : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ Pupitre_LED_DAE : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+SG_ Pupitre_LED_Defaut : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+SG_ Pupitre_ArretUrgence_B : 18|3@0+ (1,0) [0|7] "" Vector__XXX
+SG_ Pupitre_Buzzer_dmd_DAE : 26|3@0+ (1,0) [0|7] "-" Vector__XXX
+
+
+BO_ 256 id_100_Cons_DAE_autonome: 8 Vector__XXX
+SG_ Cons_DAE_Autonome : 7|16@0+ (0.1,-720) [-720|5833.5] "°volant" Vector__XXX
+SG_ Cons_vitesse_DAE : 23|16@0+ (0.1,0) [0|6553.5] "°/s" Vector__XXX
+SG_ reactivation_mode_cooperatif_DAE : 32|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Checksum_id_100 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_100 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 272 id_110_DAE_info_FH: 8 Vector__XXX
+SG_ Position_DAE : 7|16@0+ (0.1,-720) [-720|5833.5] "°volant" Vector__XXX
+SG_ Ecart_pos_DAE__cons_pos : 23|16@0+ (1,-720) [-720|64815] "°volant" Vector__XXX
+SG_ Couple_volant_mesure_DAE : 39|12@0+ (0.1,-200) [-200|209.5] "Nm" Vector__XXX
+SG_ Couple_volant_genere_DAE : 43|12@0+ (0.1,-200) [-200|209.5] "Nm" Vector__XXX
+SG_ Mode_DAE_en_cours : 57|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Compteur_id_110 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 273 id_111_DAE_info_FH: 8 Vector__XXX
+SG_ Butee_maxi_DAE_G_autorise : 7|16@0+ (0.1,-720) [-720|5833.5] "°volant" Vector__XXX
+SG_ Butee_maxi_DAE_D_autorise : 23|16@0+ (0.1,-720) [-720|5833.5] "°volant" Vector__XXX
+SG_ ErreurButeeDAE_gauche_atteinte : 32|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurButeeDAE_droite_atteinte : 33|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurCaptDAE_origine_couple_1 : 34|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurCapteur_DAE_incoh_sign1_2 : 35|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurPerte_CAN_intersystem_DAE : 36|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_RepriseManu : 40|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_RepriseExterne : 41|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_PbCANRot_timeout : 42|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_PbCANRob_chk : 43|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_PbCANRob_Cpt : 44|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactDAE_PbCapteurOri : 45|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Compteur_id_111 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 512 id_200_Cons_accel_autonome: 8 Vector__XXX
+SG_ Cons_accelateur_Autonome : 7|16@0+ (0.1,0) [0|6553.5] "0-100%" Vector__XXX
+SG_ Checksum_id_200 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_200 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 528 id_210_Accel_info_FH: 8 Vector__XXX
+SG_ Position_accel_piste_1_mesure : 7|12@0+ (0.1,0) [0|409.5] "0-100%" Vector__XXX
+SG_ Position_accel_piste_2_mesure : 11|12@0+ (0.1,0) [0|409.5] "0-100%" Vector__XXX
+SG_ Position_accel_piste_1_genere : 31|12@0+ (0.1,0) [0|409.5] "0-100%" Vector__XXX
+SG_ Mode_Accel_en_cours : 57|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Compteur_id_210 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 529 id_211_Accel_info_FH: 8 Vector__XXX
+SG_ ErreurCapteur_Accel_origine : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurCapteur_Accel_incoh_ped1_2 : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurPerte_CAN_intersystem_Acce : 3|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_RepriseManu : 8|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_RepriseExterne : 9|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_PbCANRob_timeou : 10|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_PbCANRob_chk : 11|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_PbCANRot_Cpt : 12|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactAccel_PbCapteurOri : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ Compteur_id_211 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 768 id_300_Cons_Frein_autonome: 8 Vector__XXX
+SG_ Cons_Frein_Autonome : 7|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+SG_ Checksum_id_300 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_300 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 784 id_310_Frein_info_FH: 8 Vector__XXX
+SG_ Position_frein_piste_1_mesure : 7|12@0+ (0.1,0) [0|409.5] "mm" Vector__XXX
+SG_ Position_frein_piste_2_mesure : 11|12@0+ (0.1,0) [0|409.5] "mm" Vector__XXX
+SG_ Position_frein_piste_1_genere : 31|12@0+ (0.1,0) [0|409.5] "mm" Vector__XXX
+SG_ Mode_Frein_en_cours : 57|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Compteur_id_310 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 785 id_311_Accel_info_FH: 8 Vector__XXX
+SG_ ErreurCapteur_Frein_origine : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurCapteur_Frein_incoh_ped1_2 : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ ErreurPerte_CAN_intersystem_Frei : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_RepriseManu : 8|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_RepriseExterne : 9|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_PbCANRob_timeou : 10|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_PbCANRob_chk : 11|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_PbCANRot_Cpt : 12|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CauseDesactFrein_PbCapteurOri : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ Compteur_id_311 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 1024 id_400_Cons_PRND_robotise: 8 Vector__XXX
+SG_ cons_PRND_robotise : 1|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Checksum_id_400 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_400 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 1040 id_410_PRND_info_FH: 8 Vector__XXX
+SG_ PRND_engage : 2|3@0+ (1,0) [0|7] "-" Vector__XXX
+SG_ Mode_PRND_en_cours : 57|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Compteur_id_410 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
+
+
+BO_ 1280 id_500_Cons_accessoire_robotise: 8 Vector__XXX
+SG_ Clignotant_gauche : 8|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Clignotant_droit : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ Clignotant_warning : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ feux_veilleuse : 16|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ feux_code : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ feux_route : 18|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ feux_antibrouillard_AV : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ feux_antibrouillard_AR : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ Klaxon : 24|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Checksum_id_500 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_500 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
+
+
+BO_ 1536 id_600_Superviseur_A_vers_B: 8 Vector__XXX
+SG_ desactivation_accel_manu : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ desactivation_frein_manu : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ defaut_capteur_accel : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ defaut_capteur_frein : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ Checksum_id_600 : 59|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+SG_ Compteur_id_600 : 63|4@0+ (1,0) [0|15] "-" Vector__XXX
+
+
+BO_ 1552 id_610_Superviseur_B_vers_A: 8 Vector__XXX
+SG_ desactivation_DAE_manu : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Accel_inter_ou_CAN : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Frein_inter_ou_CAN : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Pilotage_DAE_Autorise : 3|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Pilotage_PRND_Autorise : 4|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Mode_desire_autorise : 9|2@0+ (1,0) [0|3] "-" Vector__XXX
+SG_ Checksum_id_610 : 59|4@0+ (1,0) [0|15] "-" Vector__XXX
+SG_ Compteur_id_610 : 63|4@0+ (1,0) [0|15] "CRC" Vector__XXX
+
+
+BO_ 288 id_120_DAE_diag_FH: 8 Vector__XXX
+SG_ cons_final_DAE : 7|11@0- (0.1,0) [-102.4|102.3] "%" Vector__XXX
+SG_ mode_actif_DAE : 12|3@0+ (1,0) [0|7] "" Vector__XXX
+SG_ cause_desactiv_AU_DAE : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desactiv_Veh_DAE : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desactiv_manu_DAE : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desactiv_manu_ext_DAE : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desactiv_CAN_DAE : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desactiv_manu_cooperatif_D : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ cause_desacti_status_DAE : 22|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ etat_MaE_selection_cons_DAE : 31|10@0+ (1,0) [0|1023] "" Vector__XXX
+SG_ buzzer_DAE : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_ 16 id_010_debug_ana03_TM: 4 Vector__XXX
+SG_ ana03_TM_mV : 7|13@0+ (1,0) [0|8191] "" Vector__XXX
+SG_ ana03_TM_apres_carto : 23|12@0- (0.1,0) [-204.8|204.7] "" Vector__XXX
+
+
+BO_ 17 id_011_debugana04_TS: 4 Vector__XXX
+SG_ ana04_TS_mV : 7|13@0+ (1,0) [0|8191] "" Vector__XXX
+SG_ ana04_TS_apres_carto : 23|12@0- (0.1,0) [-204.8|204.7] "" Vector__XXX
+
+
+BO_ 18 id_012_debugMaE_Dae: 5 Vector__XXX
+SG_ TM_Ori : 7|12@0- (0.1,0) [-204.8|204.7] "" Vector__XXX
+SG_ TS_Ori : 11|12@0- (0.1,0) [-204.8|204.7] "" Vector__XXX
+SG_ Cons_FH : 31|12@0- (0.1,0) [-204.8|204.7] "" Vector__XXX
+
+
+BO_ 19 id_013_debugMaE_Dae_bis: 4 Vector__XXX
+SG_ TM_FH : 7|13@0+ (1,0) [0|8191] "" Vector__XXX
+SG_ TS_FH : 10|13@0+ (1,0) [0|8191] "" Vector__XXX
+
+
+BO_ 20 id_014_debugSAna_DAE: 7 Vector__XXX
+SG_ Sana_01_TM : 7|13@0+ (1,0) [0|8191] "" Vector__XXX
+SG_ Sana_02_TS : 23|13@0+ (1,0) [0|8191] "" Vector__XXX
+
+
+BO_ 32 id_020_debug_Compteur_CRC: 8 Vector__XXX
+SG_ compteur_recu : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+SG_ compteur_calcule : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+SG_ compteur_valide : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ compteur_recu_brut : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+
+
+BO_ 33 id_021_debug_CRC: 8 Vector__XXX
+SG_ Chk_BDC : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+SG_ CRC_Brut : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+SG_ CHK_FH : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+SG_ chk_valide : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_ 35 id_023_debug: 5 Vector__XXX
+SG_ crc_avt_memo : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ crc_apres_memo : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_ 289 id_121_debug_MaE_DAE: 8 Vector__XXX
+SG_ cons_volant : 7|10@0- (1,0) [-512|511] "" Vector__XXX
+SG_ cons_CAN_DAE : 13|10@0- (1,0) [-512|511] "" Vector__XXX
+SG_ dmd_activ_fonction : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ mode_desire_DAE : 19|3@0+ (1,0) [0|7] "" Vector__XXX
+SG_ desact_AU : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ desact_veh : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ desact_manu : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ desact_manu_ext : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ desact_general : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ reacti_mode_coop_DAE : 29|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ desacti_status_DAE : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ up2 : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+SG_ plage_OK : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_ 1792 id_700_info_Renault_Vitesse: 8 Vector__XXX
+SG_ VitesseRoue_AVG : 7|12@0+ (0.5,0) [0|2047.5] "tr/min" Vector__XXX
+SG_ VitesseRoue_AVD : 11|12@0+ (0.5,0) [0|2047.5] "tr/min" Vector__XXX
+SG_ VitesseRoue_ARG : 31|12@0+ (0.5,0) [0|2047.5] "tr/min" Vector__XXX
+SG_ VitesseRoue_ARD : 35|12@0+ (0.5,0) [0|2047.5] "tr/min" Vector__XXX
+SG_ VitesseVehicule : 55|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+
+
+BO_ 1793 id_701_info_Renault_Odometrie: 8 Vector__XXX
+SG_ OdometrieRoue_AVG : 7|16@0+ (1,0) [0|65535] "1top/cm" Vector__XXX
+SG_ OdometrieRoue_AVD : 23|16@0+ (1,0) [0|65535] "1top/cm" Vector__XXX
+SG_ OdometrieRoue_ARG : 39|16@0+ (1,0) [0|65535] "1top/cm" Vector__XXX
+SG_ OdometrieRoue_ARD : 55|16@0+ (1,0) [0|65535] "1top/cm" Vector__XXX
+
+
+BO_ 1794 id_702_info_Renault_ESP: 8 Vector__XXX
+SG_ Accel_longitudinale : 7|8@0+ (0.05,-10) [-10|2.75] "m/s2" Vector__XXX
+SG_ Accel_laterale : 15|16@0- (0.004,0) [-131.072|131.068] "g" Vector__XXX
+SG_ vitesse_du_lacet : 31|12@0- (0.1,0) [-204.8|204.7] "°/s" Vector__XXX
+
+
+BO_ 1795 id_703_info_Renault_Volant: 8 Vector__XXX
+SG_ Volant_angle : 7|16@0- (0.1,0) [-3276.8|3276.7] "°" Vector__XXX
+SG_ Volant_angle_offset : 23|16@0- (0.1,0) [-3276.8|3276.7] "°" Vector__XXX
+SG_ Volant_vitesse_rotation : 39|16@0- (0.1,0) [-3276.8|3276.7] "°/s" Vector__XXX
+
+
+BO_ 1796 id_704_info_Renault_Vehicule: 8 Vector__XXX
+SG_ kilometrage_vehicule : 7|18@0+ (1,0) [0|262143] "km" Vector__XXX
+SG_ regime_moteur : 21|14@0+ (1,0) [0|16383] "tr/min" Vector__XXX
+SG_ PRND_position : 34|3@0+ (1,0) [0|7] "-" Vector__XXX
+SG_ APC_12V_actif : 40|1@0+ (1,0) [0|1] "-" Vector__XXX
+
+
+BO_ 1797 id_705_info_Renault_habitacle: 8 Vector__XXX
+SG_ FeuxVeilleuses_commodo : 0|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxCodes_commodo : 1|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxRoute_commodo : 2|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxBrouillardAV_commodo : 3|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxBrouillardAR_commodo : 4|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxClignotantG_commodo : 5|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxClignotantD_commodo : 6|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxWarning_commodo : 7|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxVeilleuses_etat : 8|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxCodes_etat : 9|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxRoute_etat : 10|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxBrouillardAV_etat : 11|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxBrouillardAR_etat : 12|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxClignotantG_etat : 13|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxClignotantD_etat : 14|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ FeuxWarning_etat : 15|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantPortiereAVG_etat : 16|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantPortiereAVD_etat : 17|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantPortiereARG_etat : 18|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantPortiereARD_etat : 19|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantCapotAV_etat : 20|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantCoffreAR_etat : 21|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ OuvrantTrappeCharge_etat : 22|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CeintureSecurite_ConducteuEnSecu : 24|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CeintureSecurite_PassagerEnSecu : 25|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CeintureSecurite_ARG : 26|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CeintureSecurite_ARD : 27|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ CeintureSecurite_ARC : 28|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ EssuiesGlaceVitPetite_commodo : 32|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ EssuiesGlaceVitGrande_commodo : 33|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ EssuiesGlaceVitPetite_etat : 34|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ EssuiesGlaceVitGrande_etat : 35|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ DetecteurPluie_etat : 36|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ DegivrageArr : 37|1@0+ (1,0) [0|1] "-" Vector__XXX
+SG_ Temperature_interieure : 47|8@0+ (1,-40) [-40|215] "°C" Vector__XXX
+SG_ Temperature_exterieure : 55|8@0+ (1,-40) [-40|215] "°C" Vector__XXX
+
+
+BO_ 1798 id_706_info_Renault_Frein: 8 Vector__XXX
+SG_ Frein_PressionCircuit : 7|8@0+ (1,0) [0|255] "bar" Vector__XXX
+SG_ Frein_PositionEnfoncement : 15|8@0+ (0.5,0) [0|127.5] "%" Vector__XXX
+SG_ Frein_Etat_pedale : 18|3@0+ (1,0) [0|7] "-" Vector__XXX
+SG_ Frein_Etat_FreinMain : 19|1@1+ (1,0) [0|1] "-" Vector__XXX
+SG_ Frein_DefautEOBD : 24|1@0+ (1,0) [0|1] "-" Vector__XXX
+
+
+BO_ 1799 id_707_info_Renault_Batterie400V: 8 Vector__XXX
+SG_ Batt400_Tension : 7|13@0+ (0.1,0) [0|819.1] "V" Vector__XXX
+SG_ Batt400_SOC : 23|8@0+ (1,0) [0|255] "%" Vector__XXX
+SG_ Batt400_Autonomie_km : 31|10@0+ (1,0) [0|1023] "km" Vector__XXX
+SG_ Batt400_Autonomie_kWh : 37|6@0+ (1,0) [0|63] "kWh" Vector__XXX
+
+
+BO_ 1800 id_708_info_Renault_Couple: 8 Vector__XXX
+SG_ MeanEffTorque : 7|12@0+ (0.5,-400) [-400|1647.5] "Nm" Vector__XXX
+SG_ RequestedTorqueAfterProc : 11|12@0+ (0.5,-400) [-400|1647.5] "Nm" Vector__XXX
+SG_ ElecBrakeWheelsTorqueRequest : 31|12@0+ (1,-4094) [-4094|1] "Nm" Vector__XXX
+SG_ DriverBrakeWheelTq_Req : 35|12@0+ (3,-12282) [-12282|3] "Nm" Vector__XXX
+
+
+BO_ 290 id_122_debug_PID: 8 Vector__XXX
+SG_ PID_err_DAE : 7|16@0- (0.1,0) [-3276.8|3276.7] "" Vector__XXX
+SG_ PID_out_PID : 23|16@0- (0.1,0) [-3276.8|3276.7] "" Vector__XXX
+SG_ PID_cons_pos_DAE : 39|16@0- (0.1,0) [-3276.8|3276.7] "" Vector__XXX
+SG_ PID_mesure_pos_DAE : 55|16@0- (0.1,0) [-3276.8|3276.7] "" Vector__XXX
+
+
+BO_ 291 id_123_debug_PID: 8 Vector__XXX
+SG_ pos_volant_derive : 7|16@0- (1,0) [-32768|32767] "" Vector__XXX
+SG_ pos_volant_flt : 23|16@0- (1,0) [-32768|32767] "" Vector__XXX
+SG_ TM_volant_derive : 39|16@0- (1,0) [-32768|32767] "" Vector__XXX
+SG_ TM_volant_flt : 55|16@0- (1,0) [-32768|32767] "" Vector__XXX
+
+
+BO_ 544 id_220_Accel_diag_FH: 8 Vector__XXX
+SG_ etat_MaE_accel : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+SG_ buzzer_accel : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_ 800 id_320_Frein_diag_FH: 8 Vector__XXX
+SG_ etat_MaE_frein : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+SG_ buzzer_frein : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+CM_ BO_ 80 "PC robotisation vers boitier FH";
+CM_ SG_ 80 Activation_DAE_robotise_CAN "Activation de la commande via le CAN";
+CM_ SG_ 80 Activation_Accel_robotise_CAN "Activation de la commande via le CAN";
+CM_ SG_ 80 Activation_Frein_robotise_CAN "Activation de la commande via le CAN";
+CM_ SG_ 80 Checksum_id_050 "cryptage pour validation du contenu de la trame";
+CM_ SG_ 80 Compteur_id_050 "compteur de 0 à 15 (0-F)";
+CM_ BO_ 96 "boitier FH A vers PC robotisation";
+CM_ SG_ 96 CondActiv_GenVehRobotisation_A "Activation de la robotisation en fonction des conditions vehicule";
+CM_ SG_ 96 CauseNonActiv_Gen_PorteAVG_A "Activation de la robotisation en fonction de la fermeture Porte AVG";
+CM_ SG_ 96 CauseNonActiv_Gen_PorteAVD_A "Activation de la robotisation en fonction de la fermeture Porte AVD";
+CM_ SG_ 96 CauseNonActiv_Gen_PorteARG_A "Activation de la robotisation en fonction de la fermeture Porte ARG";
+CM_ SG_ 96 CauseNonActiv_Gen_PorteARD_A "Activation de la robotisation en fonction de la fermeture Porte ARD";
+CM_ SG_ 96 CauseNonActiv_Gen_PRND_A "Activation de la robotisation en fonction de la position PRND";
+CM_ SG_ 96 CauseNonActiv_Gen_FreinMain_A "Activation de la robotisation en fonction de la position du frein a main";
+CM_ SG_ 96 CauseNonActiv_Gen_ArretUrgence_A "Activation de la robotisation en fonction de l arret urgence";
+CM_ BO_ 97 "boitier FH B vers PC robotisation";
+CM_ BO_ 112 "boitier FH A vers PC robotisation";
+CM_ BO_ 113 "boitier FH B vers PC robotisation";
+CM_ BO_ 256 "PC robotisation vers boitier FH";
+CM_ SG_ 256 Cons_DAE_Autonome "consigne de position de la direction";
+CM_ SG_ 256 Checksum_id_100 "cryptage pour validation du contenu de la trame";
+CM_ BO_ 272 "boitier FH vers PC robotisation";
+CM_ SG_ 272 Position_DAE "Position mesurée du volant";
+CM_ SG_ 272 Ecart_pos_DAE__cons_pos "ecart de position du volant entre la consigne et sa position";
+CM_ SG_ 272 Couple_volant_mesure_DAE "Couple mesuré sur le volant exercé par le conducteur";
+CM_ SG_ 272 Couple_volant_genere_DAE "Pseudo couple sur volant generé par FH pour robotiser la DAE";
+CM_ SG_ 272 Mode_DAE_en_cours "mode en cours";
+CM_ BO_ 273 "boitier FH vers PC robotisation";
+CM_ SG_ 273 Butee_maxi_DAE_G_autorise "Valeur maxi que la direction peut accepter (butée)";
+CM_ SG_ 273 Butee_maxi_DAE_D_autorise "Valeur maxi que la direction peut accepter (butée)";
+CM_ SG_ 273 ErreurButeeDAE_gauche_atteinte "erreur : desactivation suite position en butée maxi";
+CM_ SG_ 273 ErreurButeeDAE_droite_atteinte "erreur : desactivation suite position en butée maxi";
+CM_ SG_ 273 ErreurCaptDAE_origine_couple_1 "erreur : desactivation suite erreur sur le capteur couple 1 d origine";
+CM_ SG_ 273 ErreurPerte_CAN_intersystem_DAE "erreur : desactivation suite perte du CAN Intersystem";
+CM_ SG_ 273 CauseDesactDAE_RepriseManu "erreur : desactivation suite prise en main cette fonction robotisé";
+CM_ SG_ 273 CauseDesactDAE_RepriseExterne "erreur : desactivation suite prise en main d'une fonction externe robotisé";
+CM_ SG_ 273 CauseDesactDAE_PbCANRot_timeout "erreur : desactivation suite erreur timeout CAN";
+CM_ SG_ 273 CauseDesactDAE_PbCANRob_chk "erreur : desactivation suite erreur de calcul du checksum";
+CM_ SG_ 273 CauseDesactDAE_PbCANRob_Cpt "erreur : desactivation suite consigne hors limite autorisé";
+CM_ SG_ 273 CauseDesactDAE_PbCapteurOri "erreur : desactivation suite erreur sur le capteur d origine";
+CM_ BO_ 512 "PC robotisation vers boitier FH";
+CM_ SG_ 512 Checksum_id_200 "cryptage pour validation du contenu de la trame";
+CM_ BO_ 528 "boitier FH vers PC robotisation";
+CM_ SG_ 528 Position_accel_piste_1_mesure "Position accel (Ped1) mesurée par FH";
+CM_ SG_ 528 Position_accel_piste_2_mesure "Position accel (Ped2) mesurée par FH";
+CM_ SG_ 528 Position_accel_piste_1_genere "Pseudo position accel (Ped1) generée par FH";
+CM_ SG_ 528 Mode_Accel_en_cours "mode en cours";
+CM_ BO_ 529 "boitier FH vers PC robotisation";
+CM_ SG_ 529 ErreurCapteur_Accel_incoh_ped1_2 "erreur : desactivation suite erreur de coherence entre capteur ped1/ped2  d origine";
+CM_ SG_ 529 ErreurPerte_CAN_intersystem_Acce "erreur : desactivation suite perte du CAN Intersystem";
+CM_ SG_ 529 CauseDesactAccel_RepriseManu "erreur : desactivation suite prise en main cette fonction robotisé";
+CM_ SG_ 529 CauseDesactAccel_RepriseExterne "erreur : desactivation suite prise en main d'une fonction externe robotisé";
+CM_ SG_ 529 CauseDesactAccel_PbCapteurOri "erreur : desactivation suite erreur sur le capteur d origine";
+CM_ BO_ 768 "PC robotisation vers boitier FH";
+CM_ SG_ 768 Cons_Frein_Autonome "consigne de position de la pedale de frein";
+CM_ SG_ 768 Checksum_id_300 "cryptage pour validation du contenu de la trame";
+CM_ BO_ 784 "boitier FH vers PC robotisation";
+CM_ SG_ 784 Position_frein_piste_1_mesure "Position frein (Ped1) mesurée par FH";
+CM_ SG_ 784 Position_frein_piste_2_mesure "Position frein (Ped2) mesurée par FH";
+CM_ SG_ 784 Position_frein_piste_1_genere "Pseudo position frein (Ped1) generée par FH";
+CM_ SG_ 784 Mode_Frein_en_cours "mode en cours";
+CM_ BO_ 785 "boitier FH vers PC robotisation";
+CM_ SG_ 785 ErreurCapteur_Frein_origine "erreur : desactivation suite erreur sur le capteur frein 1 d origine";
+CM_ SG_ 785 ErreurCapteur_Frein_incoh_ped1_2 "erreur : desactivation suite erreur de coherence entre capteur ped1/ped2  d origine";
+CM_ SG_ 785 CauseDesactFrein_RepriseManu "erreur : desactivation suite prise en main cette fonction robotisé";
+CM_ SG_ 785 CauseDesactFrein_RepriseExterne "erreur : desactivation suite prise en main d'une fonction externe robotisé";
+CM_ SG_ 785 CauseDesactFrein_PbCANRob_timeou "erreur : desactivation suite erreur timeout CAN";
+CM_ SG_ 785 CauseDesactFrein_PbCANRob_chk "erreur : desactivation suite erreur de calcul du checksum";
+CM_ SG_ 785 CauseDesactFrein_PbCANRot_Cpt "erreur : desactivation suite consigne hors limite autorisé";
+CM_ SG_ 785 CauseDesactFrein_PbCapteurOri "erreur : desactivation suite erreur sur le capteur d origine";
+CM_ SG_ 785 Compteur_id_311 "compteur de 0 à 15 (0-F)";
+CM_ BO_ 1024 "PC robotisation vers boitier FH";
+CM_ BO_ 1040 "boitier FH vers PC robotisation";
+CM_ BO_ 1280 "PC robotisation vers boitier FH";
+CM_ BO_ 1536 "boitier FH A vers boitier FH B";
+CM_ BO_ 1552 "boitier FH B vers boitier FH A";
+CM_ BO_ 288 "debug FH";
+CM_ BO_ 16 "debug FH";
+CM_ BO_ 17 "debug FH";
+CM_ BO_ 18 "debug FH";
+CM_ BO_ 19 "debug FH";
+CM_ BO_ 20 "debug FH";
+CM_ BO_ 32 "debug FH";
+CM_ BO_ 33 "debug FH";
+CM_ BO_ 35 "debug FH";
+CM_ BO_ 289 "debug FH";
+CM_ BO_ 1792 "boitier FH vers PC robotisation";
+CM_ BO_ 1793 "boitier FH vers PC robotisation";
+CM_ BO_ 1794 "boitier FH vers PC robotisation";
+CM_ BO_ 1795 "boitier FH vers PC robotisation";
+CM_ BO_ 1796 "boitier FH vers PC robotisation";
+CM_ BO_ 1797 "boitier FH vers PC robotisation";
+CM_ BO_ 1798 "boitier FH vers PC robotisation";
+CM_ BO_ 1799 "boitier FH vers PC robotisation";
+CM_ BO_ 290 "debug FH";
+CM_ BO_ 291 "debug FH";
+
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+038 3.4E+038;
+
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+
+BA_ "GenMsgCycleTime" BO_ 256 2;
+
+BA_ "GenSigStartValue" SG_ 80 Mode_desire 0;
+BA_ "GenSigStartValue" SG_ 80 Activation_DAE_robotise_CAN 0;
+BA_ "GenSigStartValue" SG_ 80 Activation_Accel_robotise_CAN 0;
+BA_ "GenSigStartValue" SG_ 80 Activation_Frein_robotise_CAN 0;
+BA_ "GenSigStartValue" SG_ 80 Activation_PRND_robotise_CAN 0;
+BA_ "GenSigStartValue" SG_ 80 Checksum_id_050 0;
+BA_ "GenSigStartValue" SG_ 80 Compteur_id_050 0;
+BA_ "GenSigStartValue" SG_ 96 CondActiv_GenVehRobotisation_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_PorteAVG_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_PorteAVD_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_PorteARG_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_PorteARD_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_PRND_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_FreinMain_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_ArretUrgence_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_Porte_hayon_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_SecuConducte_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_SecuPassager_A 0;
+BA_ "GenSigStartValue" SG_ 96 CauseNonActiv_Gen_CAN_intersys_A 0;
+BA_ "GenSigStartValue" SG_ 97 CondActiv_GenVehRobotisation_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_PorteAVG_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_PorteAVD_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_PorteARG_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_PorteARD_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_PRND_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_FreinMain_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_ArretUrgence_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_Porte_hayon_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_SecuConducte_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_SecuPassager_B 0;
+BA_ "GenSigStartValue" SG_ 97 CauseNonActiv_Gen_CAN_intersys_B 0;
+BA_ "GenSigStartValue" SG_ 112 Pupitre_LED_Accel 0;
+BA_ "GenSigStartValue" SG_ 112 Pupitre_LED_Frein 0;
+BA_ "GenSigStartValue" SG_ 112 Pupitre_ArretUrgence_A 0;
+BA_ "GenSigStartValue" SG_ 112 Pupitre_Buzzer_dmd_Accel_Frein 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_Rotacteur_mode 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_interr_DAE 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_interr_Accel 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_interr_Frein 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_LED_DAE 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_LED_Defaut 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_ArretUrgence_B 0;
+BA_ "GenSigStartValue" SG_ 113 Pupitre_Buzzer_dmd_DAE 0;
+BA_ "GenSigStartValue" SG_ 256 Cons_DAE_Autonome 7200;
+BA_ "GenSigStartValue" SG_ 256 Cons_vitesse_DAE 0;
+BA_ "GenSigStartValue" SG_ 256 reactivation_mode_cooperatif_DAE 0;
+BA_ "GenSigStartValue" SG_ 256 Checksum_id_100 0;
+BA_ "GenSigStartValue" SG_ 256 Compteur_id_100 0;
+BA_ "GenSigStartValue" SG_ 272 Position_DAE 7200;
+BA_ "GenSigStartValue" SG_ 272 Ecart_pos_DAE__cons_pos 720;
+BA_ "GenSigStartValue" SG_ 272 Couple_volant_mesure_DAE 2000;
+BA_ "GenSigStartValue" SG_ 272 Couple_volant_genere_DAE 2000;
+BA_ "GenSigStartValue" SG_ 272 Mode_DAE_en_cours 0;
+BA_ "GenSigStartValue" SG_ 272 Compteur_id_110 0;
+BA_ "GenSigStartValue" SG_ 273 Butee_maxi_DAE_G_autorise 7200;
+BA_ "GenSigStartValue" SG_ 273 Butee_maxi_DAE_D_autorise 7200;
+BA_ "GenSigStartValue" SG_ 273 ErreurButeeDAE_gauche_atteinte 0;
+BA_ "GenSigStartValue" SG_ 273 ErreurButeeDAE_droite_atteinte 0;
+BA_ "GenSigStartValue" SG_ 273 ErreurCaptDAE_origine_couple_1 0;
+BA_ "GenSigStartValue" SG_ 273 ErreurCapteur_DAE_incoh_sign1_2 0;
+BA_ "GenSigStartValue" SG_ 273 ErreurPerte_CAN_intersystem_DAE 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_RepriseManu 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_RepriseExterne 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_PbCANRot_timeout 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_PbCANRob_chk 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_PbCANRob_Cpt 0;
+BA_ "GenSigStartValue" SG_ 273 CauseDesactDAE_PbCapteurOri 0;
+BA_ "GenSigStartValue" SG_ 273 Compteur_id_111 0;
+BA_ "GenSigStartValue" SG_ 512 Cons_accelateur_Autonome 0;
+BA_ "GenSigStartValue" SG_ 512 Checksum_id_200 0;
+BA_ "GenSigStartValue" SG_ 512 Compteur_id_200 0;
+BA_ "GenSigStartValue" SG_ 528 Position_accel_piste_1_mesure 0;
+BA_ "GenSigStartValue" SG_ 528 Position_accel_piste_2_mesure 0;
+BA_ "GenSigStartValue" SG_ 528 Position_accel_piste_1_genere 0;
+BA_ "GenSigStartValue" SG_ 528 Mode_Accel_en_cours 0;
+BA_ "GenSigStartValue" SG_ 528 Compteur_id_210 0;
+BA_ "GenSigStartValue" SG_ 529 ErreurCapteur_Accel_origine 0;
+BA_ "GenSigStartValue" SG_ 529 ErreurCapteur_Accel_incoh_ped1_2 0;
+BA_ "GenSigStartValue" SG_ 529 ErreurPerte_CAN_intersystem_Acce 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_RepriseManu 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_RepriseExterne 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_PbCANRob_timeou 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_PbCANRob_chk 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_PbCANRot_Cpt 0;
+BA_ "GenSigStartValue" SG_ 529 CauseDesactAccel_PbCapteurOri 0;
+BA_ "GenSigStartValue" SG_ 529 Compteur_id_211 0;
+BA_ "GenSigStartValue" SG_ 768 Cons_Frein_Autonome 0;
+BA_ "GenSigStartValue" SG_ 768 Checksum_id_300 0;
+BA_ "GenSigStartValue" SG_ 768 Compteur_id_300 0;
+BA_ "GenSigStartValue" SG_ 784 Position_frein_piste_1_mesure 0;
+BA_ "GenSigStartValue" SG_ 784 Position_frein_piste_2_mesure 0;
+BA_ "GenSigStartValue" SG_ 784 Position_frein_piste_1_genere 0;
+BA_ "GenSigStartValue" SG_ 784 Mode_Frein_en_cours 0;
+BA_ "GenSigStartValue" SG_ 784 Compteur_id_310 0;
+BA_ "GenSigStartValue" SG_ 785 ErreurCapteur_Frein_origine 0;
+BA_ "GenSigStartValue" SG_ 785 ErreurCapteur_Frein_incoh_ped1_2 0;
+BA_ "GenSigStartValue" SG_ 785 ErreurPerte_CAN_intersystem_Frei 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_RepriseManu 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_RepriseExterne 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_PbCANRob_timeou 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_PbCANRob_chk 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_PbCANRot_Cpt 0;
+BA_ "GenSigStartValue" SG_ 785 CauseDesactFrein_PbCapteurOri 0;
+BA_ "GenSigStartValue" SG_ 785 Compteur_id_311 0;
+BA_ "GenSigStartValue" SG_ 1024 cons_PRND_robotise 0;
+BA_ "GenSigStartValue" SG_ 1024 Checksum_id_400 0;
+BA_ "GenSigStartValue" SG_ 1024 Compteur_id_400 0;
+BA_ "GenSigStartValue" SG_ 1040 PRND_engage 0;
+BA_ "GenSigStartValue" SG_ 1040 Mode_PRND_en_cours 0;
+BA_ "GenSigStartValue" SG_ 1040 Compteur_id_410 0;
+BA_ "GenSigStartValue" SG_ 1280 Clignotant_gauche 0;
+BA_ "GenSigStartValue" SG_ 1280 Clignotant_droit 0;
+BA_ "GenSigStartValue" SG_ 1280 Clignotant_warning 0;
+BA_ "GenSigStartValue" SG_ 1280 feux_veilleuse 0;
+BA_ "GenSigStartValue" SG_ 1280 feux_code 0;
+BA_ "GenSigStartValue" SG_ 1280 feux_route 0;
+BA_ "GenSigStartValue" SG_ 1280 feux_antibrouillard_AV 0;
+BA_ "GenSigStartValue" SG_ 1280 feux_antibrouillard_AR 0;
+BA_ "GenSigStartValue" SG_ 1280 Klaxon 0;
+BA_ "GenSigStartValue" SG_ 1280 Checksum_id_500 0;
+BA_ "GenSigStartValue" SG_ 1280 Compteur_id_500 0;
+BA_ "GenSigStartValue" SG_ 1536 desactivation_accel_manu 0;
+BA_ "GenSigStartValue" SG_ 1536 desactivation_frein_manu 0;
+BA_ "GenSigStartValue" SG_ 1536 defaut_capteur_accel 0;
+BA_ "GenSigStartValue" SG_ 1536 defaut_capteur_frein 0;
+BA_ "GenSigStartValue" SG_ 1536 Checksum_id_600 0;
+BA_ "GenSigStartValue" SG_ 1536 Compteur_id_600 0;
+BA_ "GenSigStartValue" SG_ 1552 desactivation_DAE_manu 0;
+BA_ "GenSigStartValue" SG_ 1552 Accel_inter_ou_CAN 0;
+BA_ "GenSigStartValue" SG_ 1552 Frein_inter_ou_CAN 0;
+BA_ "GenSigStartValue" SG_ 1552 Pilotage_DAE_Autorise 0;
+BA_ "GenSigStartValue" SG_ 1552 Pilotage_PRND_Autorise 0;
+BA_ "GenSigStartValue" SG_ 1552 Mode_desire_autorise 0;
+BA_ "GenSigStartValue" SG_ 1552 Checksum_id_610 0;
+BA_ "GenSigStartValue" SG_ 1552 Compteur_id_610 0;
+BA_ "GenSigStartValue" SG_ 288 cons_final_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 mode_actif_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_AU_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_Veh_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_manu_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_manu_ext_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_CAN_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desactiv_manu_cooperatif_D 0;
+BA_ "GenSigStartValue" SG_ 288 cause_desacti_status_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 etat_MaE_selection_cons_DAE 0;
+BA_ "GenSigStartValue" SG_ 288 buzzer_DAE 0;
+BA_ "GenSigStartValue" SG_ 16 ana03_TM_mV 0;
+BA_ "GenSigStartValue" SG_ 16 ana03_TM_apres_carto 0;
+BA_ "GenSigStartValue" SG_ 17 ana04_TS_mV 0;
+BA_ "GenSigStartValue" SG_ 17 ana04_TS_apres_carto 0;
+BA_ "GenSigStartValue" SG_ 18 TM_Ori 0;
+BA_ "GenSigStartValue" SG_ 18 TS_Ori 0;
+BA_ "GenSigStartValue" SG_ 18 Cons_FH 0;
+BA_ "GenSigStartValue" SG_ 19 TM_FH 0;
+BA_ "GenSigStartValue" SG_ 19 TS_FH 0;
+BA_ "GenSigStartValue" SG_ 20 Sana_01_TM 0;
+BA_ "GenSigStartValue" SG_ 20 Sana_02_TS 0;
+BA_ "GenSigStartValue" SG_ 32 compteur_recu 0;
+BA_ "GenSigStartValue" SG_ 32 compteur_calcule 0;
+BA_ "GenSigStartValue" SG_ 32 compteur_valide 0;
+BA_ "GenSigStartValue" SG_ 32 compteur_recu_brut 0;
+BA_ "GenSigStartValue" SG_ 33 Chk_BDC 0;
+BA_ "GenSigStartValue" SG_ 33 CRC_Brut 0;
+BA_ "GenSigStartValue" SG_ 33 CHK_FH 0;
+BA_ "GenSigStartValue" SG_ 33 chk_valide 0;
+BA_ "GenSigStartValue" SG_ 35 crc_avt_memo 0;
+BA_ "GenSigStartValue" SG_ 35 crc_apres_memo 0;
+BA_ "GenSigStartValue" SG_ 289 cons_volant 0;
+BA_ "GenSigStartValue" SG_ 289 cons_CAN_DAE 0;
+BA_ "GenSigStartValue" SG_ 289 dmd_activ_fonction 0;
+BA_ "GenSigStartValue" SG_ 289 mode_desire_DAE 0;
+BA_ "GenSigStartValue" SG_ 289 desact_AU 0;
+BA_ "GenSigStartValue" SG_ 289 desact_veh 0;
+BA_ "GenSigStartValue" SG_ 289 desact_manu 0;
+BA_ "GenSigStartValue" SG_ 289 desact_manu_ext 0;
+BA_ "GenSigStartValue" SG_ 289 desact_general 0;
+BA_ "GenSigStartValue" SG_ 289 reacti_mode_coop_DAE 0;
+BA_ "GenSigStartValue" SG_ 289 desacti_status_DAE 0;
+BA_ "GenSigStartValue" SG_ 289 up2 0;
+BA_ "GenSigStartValue" SG_ 289 plage_OK 0;
+BA_ "GenSigStartValue" SG_ 1792 VitesseRoue_AVG 0;
+BA_ "GenSigStartValue" SG_ 1792 VitesseRoue_AVD 0;
+BA_ "GenSigStartValue" SG_ 1792 VitesseRoue_ARG 0;
+BA_ "GenSigStartValue" SG_ 1792 VitesseRoue_ARD 0;
+BA_ "GenSigStartValue" SG_ 1792 VitesseVehicule 0;
+BA_ "GenSigStartValue" SG_ 1793 OdometrieRoue_AVG 0;
+BA_ "GenSigStartValue" SG_ 1793 OdometrieRoue_AVD 0;
+BA_ "GenSigStartValue" SG_ 1793 OdometrieRoue_ARG 0;
+BA_ "GenSigStartValue" SG_ 1793 OdometrieRoue_ARD 0;
+BA_ "GenSigStartValue" SG_ 1794 Accel_longitudinale 200;
+BA_ "GenSigStartValue" SG_ 1794 Accel_laterale 0;
+BA_ "GenSigStartValue" SG_ 1794 vitesse_du_lacet 0;
+BA_ "GenSigStartValue" SG_ 1795 Volant_angle 0;
+BA_ "GenSigStartValue" SG_ 1795 Volant_angle_offset 0;
+BA_ "GenSigStartValue" SG_ 1795 Volant_vitesse_rotation 0;
+BA_ "GenSigStartValue" SG_ 1796 kilometrage_vehicule 0;
+BA_ "GenSigStartValue" SG_ 1796 regime_moteur 0;
+BA_ "GenSigStartValue" SG_ 1796 PRND_position 0;
+BA_ "GenSigStartValue" SG_ 1796 APC_12V_actif 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxVeilleuses_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxCodes_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxRoute_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxBrouillardAV_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxBrouillardAR_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxClignotantG_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxClignotantD_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxWarning_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxVeilleuses_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxCodes_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxRoute_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxBrouillardAV_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxBrouillardAR_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxClignotantG_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxClignotantD_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 FeuxWarning_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantPortiereAVG_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantPortiereAVD_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantPortiereARG_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantPortiereARD_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantCapotAV_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantCoffreAR_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 OuvrantTrappeCharge_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 CeintureSecurite_ConducteuEnSecu 0;
+BA_ "GenSigStartValue" SG_ 1797 CeintureSecurite_PassagerEnSecu 0;
+BA_ "GenSigStartValue" SG_ 1797 CeintureSecurite_ARG 0;
+BA_ "GenSigStartValue" SG_ 1797 CeintureSecurite_ARD 0;
+BA_ "GenSigStartValue" SG_ 1797 CeintureSecurite_ARC 0;
+BA_ "GenSigStartValue" SG_ 1797 EssuiesGlaceVitPetite_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 EssuiesGlaceVitGrande_commodo 0;
+BA_ "GenSigStartValue" SG_ 1797 EssuiesGlaceVitPetite_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 EssuiesGlaceVitGrande_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 DetecteurPluie_etat 0;
+BA_ "GenSigStartValue" SG_ 1797 DegivrageArr 0;
+BA_ "GenSigStartValue" SG_ 1797 Temperature_interieure 40;
+BA_ "GenSigStartValue" SG_ 1797 Temperature_exterieure 40;
+BA_ "GenSigStartValue" SG_ 1798 Frein_PressionCircuit 0;
+BA_ "GenSigStartValue" SG_ 1798 Frein_PositionEnfoncement 0;
+BA_ "GenSigStartValue" SG_ 1798 Frein_Etat_pedale 0;
+BA_ "GenSigStartValue" SG_ 1798 Frein_Etat_FreinMain 0;
+BA_ "GenSigStartValue" SG_ 1798 Frein_DefautEOBD 0;
+BA_ "GenSigStartValue" SG_ 1799 Batt400_Tension 0;
+BA_ "GenSigStartValue" SG_ 1799 Batt400_SOC 0;
+BA_ "GenSigStartValue" SG_ 1799 Batt400_Autonomie_km 0;
+BA_ "GenSigStartValue" SG_ 1799 Batt400_Autonomie_kWh 0;
+BA_ "GenSigStartValue" SG_ 1800 MeanEffTorque 800;
+BA_ "GenSigStartValue" SG_ 1800 RequestedTorqueAfterProc 800;
+BA_ "GenSigStartValue" SG_ 1800 ElecBrakeWheelsTorqueRequest 4094;
+BA_ "GenSigStartValue" SG_ 1800 DriverBrakeWheelTq_Req 4094;
+BA_ "GenSigStartValue" SG_ 290 PID_err_DAE 0;
+BA_ "GenSigStartValue" SG_ 290 PID_out_PID 0;
+BA_ "GenSigStartValue" SG_ 290 PID_cons_pos_DAE 0;
+BA_ "GenSigStartValue" SG_ 290 PID_mesure_pos_DAE 0;
+BA_ "GenSigStartValue" SG_ 291 pos_volant_derive 0;
+BA_ "GenSigStartValue" SG_ 291 pos_volant_flt 0;
+BA_ "GenSigStartValue" SG_ 291 TM_volant_derive 0;
+BA_ "GenSigStartValue" SG_ 291 TM_volant_flt 0;
+BA_ "GenSigStartValue" SG_ 544 etat_MaE_accel 0;
+BA_ "GenSigStartValue" SG_ 544 buzzer_accel 0;
+BA_ "GenSigStartValue" SG_ 800 etat_MaE_frein 0;
+BA_ "GenSigStartValue" SG_ 800 buzzer_frein 0;
+
+VAL_ 80 Mode_desire 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 80 Activation_DAE_robotise_CAN 0 "0 - desactive" 1 "1 - active" ;
+VAL_ 80 Activation_Accel_robotise_CAN 0 "0 - desactive" 1 "1 - active" ;
+VAL_ 80 Activation_Frein_robotise_CAN 0 "0 - desactive" 1 "1 - active" ;
+VAL_ 96 CondActiv_GenVehRobotisation_A 0 "valide - condition generale valide" 1 "non valide - condition generale non valide" ;
+VAL_ 96 CauseNonActiv_Gen_PorteAVG_A 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 96 CauseNonActiv_Gen_PorteAVD_A 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 96 CauseNonActiv_Gen_PorteARG_A 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 96 CauseNonActiv_Gen_PorteARD_A 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 96 CauseNonActiv_Gen_PRND_A 0 "position PRND valide" 1 "position PRND non valide" ;
+VAL_ 96 CauseNonActiv_Gen_FreinMain_A 0 "valide - frein deserer" 1 "non valide - frein serer" ;
+VAL_ 96 CauseNonActiv_Gen_ArretUrgence_A 0 "valide - Arret Urgence desactive" 1 "non valide - Arret Urgence actif" ;
+VAL_ 96 CauseNonActiv_Gen_Porte_hayon_A 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 96 CauseNonActiv_Gen_SecuConducte_A 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 96 CauseNonActiv_Gen_SecuPassager_A 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 96 CauseNonActiv_Gen_CAN_intersys_A 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 97 CondActiv_GenVehRobotisation_B 0 "valide - condition generale valide" 1 "non valide - condition generale non valide" ;
+VAL_ 97 CauseNonActiv_Gen_PorteAVG_B 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 97 CauseNonActiv_Gen_PorteAVD_B 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 97 CauseNonActiv_Gen_PorteARG_B 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 97 CauseNonActiv_Gen_PorteARD_B 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 97 CauseNonActiv_Gen_PRND_B 0 "position PRND valide" 1 "position PRND non valide" ;
+VAL_ 97 CauseNonActiv_Gen_FreinMain_B 0 "valide - frein deserer" 1 "non valide - frein serer" ;
+VAL_ 97 CauseNonActiv_Gen_ArretUrgence_B 0 "valide - Arret Urgence desactive" 1 "non valide - Arret Urgence actif" ;
+VAL_ 97 CauseNonActiv_Gen_Porte_hayon_B 0 "valide - porte fermee" 1 "non valide - porte ouverte" ;
+VAL_ 97 CauseNonActiv_Gen_SecuConducte_B 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 97 CauseNonActiv_Gen_SecuPassager_B 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 97 CauseNonActiv_Gen_CAN_intersys_B 0 "0 - valide" 1 "1 - non valide" ;
+VAL_ 112 Pupitre_LED_Accel 0 "0 - Off" 1 "1 - On" ;
+VAL_ 112 Pupitre_LED_Frein 0 "0 - Off" 1 "1 - On" ;
+VAL_ 112 Pupitre_ArretUrgence_A 0 "0 - Pas Arret Urgence" 1 "1 - Arret Urgence deporté enclenche" 2 "2 - Arret Urgence principal enclenche" 3 "3 - Arret Urgence principal et deporté enclenches" 4 "4 - Arret Urgence court circuit masse" 5 "5 - Arret Urgence debranche" ;
+VAL_ 112 Pupitre_Buzzer_dmd_Accel_Frein 0 "0 - Buzzer pas de demande" 1 "1 - Buzzer 2 bip court" 2 "2 - Buzzer bip long" 3 "3 - Buzzer 5 bip court" ;
+VAL_ 113 Pupitre_Rotacteur_mode 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 113 Pupitre_interr_DAE 0 "0 - Off" 1 "1 - On" ;
+VAL_ 113 Pupitre_interr_Accel 0 "0 - Off" 1 "1 - On" ;
+VAL_ 113 Pupitre_interr_Frein 0 "0 - Off" 1 "1 - On" ;
+VAL_ 113 Pupitre_LED_DAE 0 "0 - Off" 1 "1 - On" ;
+VAL_ 113 Pupitre_LED_Defaut 0 "0 - Off" 1 "1 - On" ;
+VAL_ 113 Pupitre_ArretUrgence_B 0 "0 - Pas Arret Urgence" 1 "1 - Arret Urgence deporté enclenche" 2 "2 - Arret Urgence principal enclenche" 3 "3 - Arret Urgence principal et deporté enclenches" 4 "4 - Arret Urgence court circuit masse" 5 "5 - Arret Urgence debranche" ;
+VAL_ 113 Pupitre_Buzzer_dmd_DAE 0 "0 - Buzzer pas de demande" 1 "1 - Buzzer 2 bip court" 2 "2 - Buzzer bip long" 3 "3 - Buzzer 5 bip court" ;
+VAL_ 272 Mode_DAE_en_cours 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 528 Mode_Accel_en_cours 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 784 Mode_Frein_en_cours 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 1024 cons_PRND_robotise 0 "0 : P" 1 "1 : R" 2 "2 : N" 3 "3 : D" ;
+VAL_ 1040 PRND_engage 3 "PRND-Neutre" 4 "PRND-D" 2 "PRND-R" 1 "PRND-Park" ;
+VAL_ 1040 Mode_PRND_en_cours 0 "mode_manuel" 1 "mode_robotise" 2 "mode_cooperatif" 3 "mode_Selecteur_conducteur" ;
+VAL_ 1796 PRND_position 3 "PRND-Neutre" 4 "PRND-D" 2 "PRND-R" 1 "PRND-Park" ;
+VAL_ 1797 FeuxVeilleuses_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxCodes_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxRoute_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxBrouillardAV_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxBrouillardAR_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxClignotantG_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxClignotantD_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxWarning_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxVeilleuses_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxCodes_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxRoute_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxBrouillardAV_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxBrouillardAR_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxClignotantG_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxClignotantD_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 FeuxWarning_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 OuvrantPortiereAVG_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantPortiereAVD_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantPortiereARG_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantPortiereARD_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantCapotAV_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantCoffreAR_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 OuvrantTrappeCharge_etat 0 "0 - ouvrant ferme" 1 "1 - ouvrant ouvert" ;
+VAL_ 1797 CeintureSecurite_ConducteuEnSecu 0 "0 - non securise" 1 "1 - en securise" ;
+VAL_ 1797 CeintureSecurite_PassagerEnSecu 0 "0 - non securise" 1 "1 - en securise" ;
+VAL_ 1797 CeintureSecurite_ARG 0 "0 - non securise" 1 "1 - en securise" ;
+VAL_ 1797 CeintureSecurite_ARD 0 "0 - non securise" 1 "1 - en securise" ;
+VAL_ 1797 CeintureSecurite_ARC 0 "0 - non securise" 1 "1 - en securise" ;
+VAL_ 1797 EssuiesGlaceVitPetite_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 EssuiesGlaceVitGrande_commodo 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 EssuiesGlaceVitPetite_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 EssuiesGlaceVitGrande_etat 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1797 DegivrageArr 0 "0 - Off" 1 "1 - On" ;
+VAL_ 1798 Frein_Etat_pedale 1 "PedFrein - relachee" 2 "PedFrein - effleurée" 4 "PedFrein - enfoncée" 3 "PedFrein - erreur" ;
+
+

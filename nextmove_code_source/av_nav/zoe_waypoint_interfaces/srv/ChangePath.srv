@@ -1,0 +1,8 @@
+# ChangePath
+
+# === Request ===
+string pathname
+
+---
+# === Response ===
+bool path_changed
